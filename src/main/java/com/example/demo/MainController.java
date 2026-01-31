@@ -29,8 +29,4 @@ public class MainController {
         );
     }
 
-    @GetMapping("/Rahul")
-    public String Rahul() {
-        return "Hii Rahul";
-    }
 }
