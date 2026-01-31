@@ -20,7 +20,7 @@ public class MainController {
         return List.of("Error 1: Invalid input", "Error 2: Access denied", "Error 3: Timeout");
     }
 
-    @GetMapping("/greetings")
+    @GetMapping("/greeting")
     public Map<String, String> greetings() {
         return Map.of(
                 "greeting1", "Hello User!",
