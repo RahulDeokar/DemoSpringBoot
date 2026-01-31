@@ -20,12 +20,17 @@ public class MainController {
         return List.of("Error 1: Invalid input", "Error 2: Access denied", "Error 3: Timeout");
     }
 
-    @GetMapping("/greeting")
+    @GetMapping("/greetings")
     public Map<String, String> greetings() {
         return Map.of(
                 "greeting1", "Hello User!",
                 "greeting2", "Hi there!",
                 "greeting3", "Welcome to the demo!"
         );
+    }
+
+    @GetMapping("/Rahul")
+    public String Rahul() {
+        return "Hii Rahul";
     }
 }
